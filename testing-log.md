@@ -165,7 +165,7 @@ The instruction revision corrected the failure observed in the original Break Te
 The assistant performed well on grounded HR staffing questions and resisted unsupported numerical and causal claims.
 
 Testing identified one meaningful weakness: the original instructions did not establish a strong enough functional boundary. Adding the Functional Scope Guardrail improved the assistant's ability to remain within HR workforce-planning decision support while still explaining cross-functional staffing implications.
-
+ 
 The final assistant is designed to provide evidence-based decision support, not autonomous workforce decisions.
 
 **GitHub Publishing Verification:** The public repository was opened successfully in an incognito/private browser window while signed out of GitHub. The README and project documentation were accessible without requiring an account.
