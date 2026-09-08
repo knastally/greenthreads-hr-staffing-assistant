@@ -1,12 +1,77 @@
-# GreenThreads HR Staffing Forecast Assistant
+# GreenThreads HR AI Integration Portfolio
 
-## Overview
+**Kristina Nastally | AI.205 — AI Integration in Business I**
 
-The GreenThreads HR Staffing Forecast Assistant is an AI decision-support tool designed to help GreenThreads HR and store management make more informed workforce-planning decisions for the Denver store launch.
+## Portfolio Overview
 
-The assistant builds on the AI staffing-forecasting opportunity identified in earlier GreenThreads analysis. It uses project knowledge such as customer behavior, historical store activity, HR information, and budget constraints to identify staffing risks and recommend staffing scenarios.
+This portfolio documents my quarter-long work exploring how AI can support HR workforce planning for GreenThreads' Denver store launch.
 
-The assistant is designed to support human decision-makers, not replace them. HR and store management retain final authority over hiring and scheduling decisions.
+The work progresses from identifying an HR workflow opportunity, to analyzing customer and store-demand evidence, to developing an evidence-based staffing recommendation, and finally to building and testing a grounded AI staffing assistant.
+
+My role throughout the project focused on the intersection between Launch & Activation data and HR staffing decisions. The goal was not to automate workforce decisions, but to use AI to make evidence easier to analyze while preserving human judgment, verification, and accountability.
+
+## Project Progression
+
+| Project | Focus | Key Outcome |
+| --- | --- | --- |
+| **HW#1 — HR Functional Brief** | Mapped HR workflows and AI opportunities | Identified quarterly staffing forecasting using sales/foot-traffic data as a Level 3 AI opportunity |
+| **HW#2 — Launch & Activation Analysis** | Connected customer behavior to HR workforce planning | Found evidence of continuing customer demand and identified the need to connect customer activity with staffing data |
+| **HW#3 — Data Intelligence & Recommendation** | Cleaned, validated, and analyzed customer/store-demand evidence | Recommended AI-assisted staffing forecasting with human approval of workforce decisions |
+| **HW#4 — Custom AI Assistant** | Built and tested the GreenThreads HR Staffing Forecast Assistant | Created a grounded decision-support assistant, deliberately break-tested it, added a Functional Scope Guardrail, and successfully retested it |
+
+## Portfolio Artifacts
+
+### HW#1 — HR Functional Brief
+
+The HR team mapped GreenThreads' hiring and workforce-planning workflows and identified **quarterly staffing forecasting** as a Level 3 AI opportunity: using sales and foot-traffic data to recommend staffing needs.
+
+**Artifact:** [HW#1 — HR Functional Brief](HR_Functional_Brief.pdf)
+
+> HW#1 was completed as an HR team deliverable. My assigned role was Launch & Activation Liaison.
+
+### HW#2 — Launch & Activation Liaison Analysis
+
+My individual analysis examined how customer acquisition and post-launch purchasing behavior could affect HR staffing readiness. The analysis used 280 Marketing B customer records and found that 76 customers (27.1%) placed more than one order.
+
+The key limitation was equally important: customer behavior alone does not establish exact staffing requirements or Denver-specific demand.
+
+**Artifact:** [HW#2 — Launch & Activation Liaison Analysis](GreenThreads%20L%26A%20Liaison%20Analysis%20%283%29.pdf)
+
+### HW#3 — Data Intelligence & Staffing Recommendation
+
+I expanded the analysis by validating customer data, examining historical store-demand evidence, documenting assumptions, and comparing staffing-planning alternatives.
+
+The resulting recommendation was to use AI-assisted staffing forecasting as decision support while keeping final hiring and scheduling authority with HR and store management.
+
+**Artifacts:**
+
+- [HW#3 — Executive Recommendation](GreenThreads%20HW%203%20-%20Nastally.pdf)
+- [HW#3 — Supporting Analysis Workbook](Cleaned%20up_GT_MarketingB_Customers_Nastally.xlsx)
+
+### HW#4 — GreenThreads HR Staffing Forecast Assistant
+
+I turned the staffing-forecasting recommendation into a reusable ChatGPT Project grounded in GreenThreads evidence.
+
+The assistant was tested on realistic HR tasks and deliberately break-tested. During testing, it correctly resisted unsupported numerical forecasts but initially crossed its functional boundary by making an Operations/procurement recommendation. I added a **Functional Scope Guardrail** and repeated the test; the assistant then stayed within HR decision authority while still explaining relevant staffing implications.
+
+**Documentation:**
+
+- [Project Instructions](project-instructions.md)
+- [Knowledge Files](knowledge-files.md)
+- [Testing & Iteration Log](testing-log.md)
+
+---
+
+## What This Portfolio Demonstrates
+
+Across these projects, I used AI as an analytical tool rather than a substitute for judgment. I cleaned and verified source data, distinguished historical benchmarks from forecasts, documented assumptions, tested AI-generated outputs, identified a real failure in my assistant, revised its instructions, and preserved human decision rights.
+
+The central lesson from the work is that AI can make workforce analysis faster and more repeatable, but the analyst remains responsible for determining whether the evidence actually supports the recommendation.
+
+---
+
+# GreenThreads HR Staffing Forecast Assistant — Detailed Build Documentation
+
 
 ---
 
