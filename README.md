@@ -25,7 +25,7 @@ My role throughout the project focused on the intersection between Launch & Acti
 
 The HR team mapped GreenThreads' hiring and workforce-planning workflows and identified **quarterly staffing forecasting** as a Level 3 AI opportunity: using sales and foot-traffic data to recommend staffing needs.
 
-**Artifact:** [HW#1 — HR Functional Brief](HR_Functional_Brief.pdf)
+**Artifact:** [HW#1 — HR Functional Brief](HW_1_HR_Functional_Brief.pdf)
 
 > HW#1 was completed as an HR team deliverable. My assigned role was Launch & Activation Liaison.
 
@@ -35,7 +35,7 @@ My individual analysis examined how customer acquisition and post-launch purchas
 
 The key limitation was equally important: customer behavior alone does not establish exact staffing requirements or Denver-specific demand.
 
-**Artifact:** [HW#2 — Launch & Activation Liaison Analysis](GreenThreads%20L%26A%20Liaison%20Analysis%20%283%29.pdf)
+**Artifact:** [HW#2 — Launch & Activation Liaison Analysis](HW2_Launch_Activation_Analysis.pdf)
 
 ### HW#3 — Data Intelligence & Staffing Recommendation
 
@@ -45,8 +45,8 @@ The resulting recommendation was to use AI-assisted staffing forecasting as deci
 
 **Artifacts:**
 
-- [HW#3 — Executive Recommendation](GreenThreads%20HW%203%20-%20Nastally.pdf)
-- [HW#3 — Supporting Analysis Workbook](Cleaned%20up_GT_MarketingB_Customers_Nastally.xlsx)
+- [HW#3 — Executive Recommendation](HW3_Data_Intelligence_Recommendation.pdf)
+- [HW#3 — Supporting Analysis Workbook](HW3_Supporting_Analysis.xlsx)
 
 ### HW#4 — GreenThreads HR Staffing Forecast Assistant
 
@@ -54,7 +54,9 @@ I turned the staffing-forecasting recommendation into a reusable ChatGPT Project
 
 The assistant was tested on realistic HR tasks and deliberately break-tested. During testing, it correctly resisted unsupported numerical forecasts but initially crossed its functional boundary by making an Operations/procurement recommendation. I added a **Functional Scope Guardrail** and repeated the test; the assistant then stayed within HR decision authority while still explaining relevant staffing implications.
 
-**Documentation:**
+**Submitted Deliverable:** [HW#4 — Custom AI Assistant Build](HW4_HR_Custom_AI_Assistant.pdf)
+
+**Build Documentation:**
 
 - [Project Instructions](project-instructions.md)
 - [Knowledge Files](knowledge-files.md)
